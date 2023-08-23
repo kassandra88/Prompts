@@ -28,7 +28,6 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             className="form_textarea "
           />
         </label>
-
         <label>
           <span className="font-satoshi font-semibold text-base text-gray-700">
             Field of Prompt{' '}
@@ -46,8 +45,6 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           />
         </label>
         About
-An application for creating prompts using Next.js
-
         <div className="flex-end mx-3 mb-5 gap-4">
           <Link href="/" className="text-gray-500 text-sm">
             Cancel
